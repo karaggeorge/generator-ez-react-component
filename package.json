@@ -1,0 +1,26 @@
+{
+  "name": "generator-ez-react-component",
+  "version": "0.0.2",
+  "description": "An easy generator for react components",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karaggeorge/generator-ez-react-component.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "easy",
+    "react",
+    "components"
+  ],
+  "author": "George Karagkiaouris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karaggeorge/generator-ez-react-component/issues"
+  },
+  "homepage": "https://github.com/karaggeorge/generator-ez-react-component#readme"
+}
