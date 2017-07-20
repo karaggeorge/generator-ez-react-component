@@ -2,13 +2,13 @@
   "name": "generator-ez-react-component",
   "version": "0.0.2",
   "description": "An easy generator for react components",
-  "main": "index.js",
+  "main": "generators/app/index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karaggeorge/generator-ez-react-component.git"
+    "url": "https://github.com/karaggeorge/generator-ez-react-component.git"
   },
   "keywords": [
     "yeoman-generator",
@@ -17,10 +17,31 @@
     "react",
     "components"
   ],
-  "author": "George Karagkiaouris",
+  "files": [
+    "generators"
+  ],
+  "author": {
+    "name": "George Karagkiaouris",
+    "url": "https://github.com/karaggeorge"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/karaggeorge/generator-ez-react-component/issues"
   },
-  "homepage": "https://github.com/karaggeorge/generator-ez-react-component#readme"
+  "homepage": "https://github.com/karaggeorge/generator-ez-react-component#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "lodash": "^4.17.4",
+    "yeoman-generator": "^1.1.1",
+    "yo": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
